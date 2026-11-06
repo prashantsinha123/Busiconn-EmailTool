@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body { margin:0; background:#f5f6f8; color:#1e293b; font-family:system-ui,sans-serif }
+button { cursor:pointer; border:1px solid #cbd5e1; border-radius:6px; padding:8px 14px; background:white }
+button:disabled { cursor:default; opacity:.45 }
+input:not([type=checkbox]), select, textarea { border:1px solid #cbd5e1; border-radius:6px; padding:9px 12px; background:white }
+input[type=checkbox] { accent-color:#2563eb }
+.primary { background:#2563eb; color:white; border-color:#2563eb }
+label { display:block; font-size:14px }
+th, td { padding:12px 10px; text-align:left; border-bottom:1px solid #e2e8f0; font-size:14px }
+th { color:#64748b; background:#f8fafc }
+.card { background:white; border:1px solid #e2e8f0; border-radius:10px; padding:24px }
